@@ -1,7 +1,7 @@
 
 const express = require("express");
 const stripe = require("../config/stripe");
-const Donor = require("../models/Donor");
+const Donor = require("../models/donor");
 const router = express.Router();
 
 // Payment Route with Multiple Methods
